@@ -1,0 +1,120 @@
+body {
+  font-family: Arial;
+  background-image: url('Aa.jpg');
+  background-color: #58e19ad4;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Welcome {
+  font-family: Monospace;
+  color: white;
+  font-size: 100%;
+  background-color: black;
+  border: 4px inset red;
+  border-radius: 20px;
+}
+.top {
+  font-family: Times New Roman;
+  color: #f6d826;
+  background-color: white;
+  border: 4px outset yellow;
+  border-radius: 20px;#1f9442ed
+}
+.image1{
+  width: 150px;
+  height: 150px;
+  border: 2px ridge #87dfb1d4;
+  border-radius: 0px 50px;
+  animation: myimg 5s infinite;
+}
+@keyframes myimg {
+  50% { border : 5px ridge red;}
+  100% { border: 15px double blue ;}
+  0% {border: 10px inset yellow; }
+}
+.image2 {
+   width: 80%;
+   height: 250px;
+   border: 2px solid #87dfb1d4;
+   border-radius: 20px;
+}
+.About, .My, .contact {
+  color: white;
+  border: 2px solid #87dfb1d4;
+  border-radius: 20px;
+  text-shadow: 3px 3px blue;
+  background-color: #6c8db3ed;
+}
+.h2 {
+  color:white ;
+  background-color:#6c8db3ed;
+  border: 2px solid #87dfb1d4;
+  border-radius: 20px;
+  text-shadow: 2px 2px blue;
+}
+#div3 {
+  width: 320px;
+  height: 120px;
+  border: 12px ridge #87dfb1d4;
+  border-radius: 20px;
+  color: white;
+  background-color: #808c99ed;
+  font-family:"Lucida Console", "Courier New", monospace;
+} 
+.c {
+  color: black;
+}
+.p {
+  color: #000000;
+  background-color: #808c99ed;
+  border: 10px ridge white;
+}
+.hr {
+  height: 4px;
+}
+.d1, .d2, .d3 {
+  width: 200px;
+  height: 5px;
+  padding: 200px;
+
+}
+#button1, #button2, #button3 {
+  background-color: #87dfb1d4;
+  padding: 10px 10px;
+  width: 100%;
+  height: 7%;
+  color: white;
+  font-size: 90%;
+}
+.inputs {
+  background-color: #87dfb1d4;
+  width: 70%;
+  padding: 4%;
+  border: 2px solid#f0821cd4;
+  border-radius: 20px;
+}
+#bold, #l1, #l2, #l3, #l4, #l5{
+  color: Yellow;
+  margin-bottom: 20px;
+}
+#Fname, #Email, #Pnumber, #address, #textarea{
+  background-color: #dee9e4d4;
+  border: 2px solid #f0821cd4;
+  border-radius: 20px;
+}
+ #b1, #b2, #b3 {
+   color: Yellow;
+   font-family: Times New Roman;
+ }
+ .forms {
+   background-color: #c3e6bc transparent;
+   border: 6px dotted  green;
+   border-radius: 20px;
+   height: 340px;
+ }
+ #textarea {
+   width: 80%;
+   height: 50%;
+ }
